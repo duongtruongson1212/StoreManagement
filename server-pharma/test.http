@@ -1,14 +1,14 @@
-GET http://localhost:5000/api/import/unit
+GET http://localhost:6000/api/import/unit
 
 ###
-POST http://localhost:5000/api/import/user  HTTP/1.1
+POST http://localhost:6000/api/import/user  HTTP/1.1
 content-type: application/json
 
 {
     
 }
 ###
-POST http://localhost:5000/api/users/login  HTTP/1.1
+POST http://localhost:6000/api/users/login  HTTP/1.1
 content-type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTE4OTAzOTRkMzIxOTBmNTk4MjU4NiIsImlhdCI6MTY3NDk4MTM4NiwiZXhwIjoxNjc3NTczMzg2fQ.WapPamUR_URZjC4cXRaAMbp2VXw0lnJpwDS5eYjT70s
 
@@ -18,7 +18,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTE4OTAzO
 }
 
 ###
-POST http://localhost:5000/api/import/unit HTTP/1.1
+POST http://localhost:6000/api/import/unit HTTP/1.1
 content-type: application/json
 
 {
@@ -26,7 +26,7 @@ content-type: application/json
 }
 
 ###
-POST http://localhost:5000/api/products HTTP/1.1
+POST http://localhost:6000/api/products HTTP/1.1
 content-type: application/json
 
 {
@@ -55,23 +55,23 @@ content-type: application/json
     "price": 20000,
     "allowToSell": true,
     "prescription": true,
-    "description":  "Thuốc giảm đau nhức",
+    "description":  "Thuốc giảm đau nhức"
     "image": "/upload/2023-02-02T07-49-53.437Zreflect.jpg"
 }
 
 ###
-GET http://localhost:5000/api/inventory/tag?keyword=6402cfcadbae6faeb6f16cb8&from=2023-02-01T00:00:00.000Z&to=2023-03-28T00:00:00.000Z
+GET http://localhost:6000/api/inventory/tag?keyword=6402cfcadbae6faeb6f16cb8&from=2023-02-01T00:00:00.000Z&to=2023-03-28T00:00:00.000Z
 
 ###
-GET http://localhost:5000/api/inventory?oh=OH0&keyword=Salonpas
+GET http://localhost:6000/api/inventory?oh=OH0&keyword=Salonpas
 
 ###
-GET http://localhost:5000/api/inventory?oh=OH0&exp=HSD0
+GET http://localhost:6000/api/inventory?oh=OH0&exp=HSD0
 
 ###
-GET http://localhost:5000/api/content
+GET http://localhost:6000/api/content
 
 ###
-GET http://localhost:5000/api/req-inventory
+GET http://localhost:6000/api/req-inventory
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTE4OTAzOTRkMzIxOTBmNTk4MjU4NiIsImlhdCI6MTY3OTQ1MTM0MywiZXhwIjoxNjgyMDQzMzQzfQ.liL-O_Mqt8zq2SVUaIu5HsVeNhRYInm-5_r025n_Ca8
 
