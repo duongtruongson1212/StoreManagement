@@ -1,0 +1,96 @@
+{
+  user: 'Admin',
+  createdRequestStock: {
+    requestCode: 'YC-khoduoc-f77d31e2',
+    provider: new ObjectId("645b012ae44c8dd24d9fcbd5"),
+    user: new ObjectId("641cf8266d5c7b3520609f97"),
+    requestItems: [
+      {
+        name: 'Desloratadin',
+        unit: 'Vỉ',
+        qty: 250,
+        product: new ObjectId("641bae634cbf1122e1e1b48b")
+      },
+      {
+        name: 'Thuốc bổ gan, lợi mật, thông tiêu, giải độc Boganic Traphaco (5 vỉ x 20 viên)',
+        unit: 'Viên',
+        qty: 100,
+        product: new ObjectId("641ba8ab4cbf1122e1e1b313")
+      },
+      {
+        name: 'Đại Tràng Nhất Nhất (Hộp 20 viên)',
+        unit: 'Viên',
+        qty: 10,
+        product: new ObjectId("641bab6b4cbf1122e1e1b397")
+      },
+      {
+        name: 'Dung dịch xịt mũi Sterimar Nose Hygiene Baby (50ml)',
+        unit: 'Chai',
+        qty: 50,
+        product: new ObjectId("641bacdc4cbf1122e1e1b3ca")
+      },
+      {
+        name: 'Canxium  (Hộp 6 vỉ x 30 viên)',
+        unit: 'Hộp',
+        qty: 300,
+        product: new ObjectId("645b04b9e44c8dd24d9fcda5")
+      }
+    ],
+    note: '',
+    status: false,
+    isDeleted: false,
+    requestedAt: 2023-12-15T00:00:00.000Z,
+    _id: new ObjectId("657c69460d411357670e8c1f"),
+    __v: 0
+  },
+  level: 'info',
+  message: '✏️ December 15th 2023, 9:54:27 pm Created Request Inventory 👉 Post: 200'
+}
+{
+  user: 'Admin',
+  updatedReq: {
+    _id: new ObjectId("657c69460d411357670e8c1f"),
+    requestCode: 'YC-khoduoc-f77d31e2',
+    provider: new ObjectId("645b012ae44c8dd24d9fcbd5"),
+    user: new ObjectId("641cf8266d5c7b3520609f97"),
+    requestItems: [
+      {
+        name: 'Desloratadin',
+        unit: 'Vỉ',
+        qty: 25000,
+        product: new ObjectId("641bae634cbf1122e1e1b48b")
+      },
+      {
+        name: 'Thuốc bổ gan, lợi mật, thông tiêu, giải độc Boganic Traphaco (5 vỉ x 20 viên)',
+        unit: 'Viên',
+        qty: 1000,
+        product: new ObjectId("641ba8ab4cbf1122e1e1b313")
+      },
+      {
+        name: 'Đại Tràng Nhất Nhất (Hộp 20 viên)',
+        unit: 'Viên',
+        qty: 10,
+        product: new ObjectId("641bab6b4cbf1122e1e1b397")
+      },
+      {
+        name: 'Dung dịch xịt mũi Sterimar Nose Hygiene Baby (50ml)',
+        unit: 'Chai',
+        qty: 50,
+        product: new ObjectId("641bacdc4cbf1122e1e1b3ca")
+      },
+      {
+        name: 'Canxium  (Hộp 6 vỉ x 30 viên)',
+        unit: 'Hộp',
+        qty: 3000,
+        product: new ObjectId("645b04b9e44c8dd24d9fcda5")
+      }
+    ],
+    note: '',
+    status: false,
+    isDeleted: false,
+    requestedAt: 2023-12-15T00:00:00.000Z,
+    __v: 1
+  },
+  level: 'info',
+  message: '✏️ December 15th 2023, 9:54:27 pm Request Inventory Updated 👉 Post: 200'
+}
