@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "643f99174f227d375bcc977c"
+  },
+  "name": "Nhơn Hòa",
+  "email": "hoatran@gmail.com",
+  "phone": "0792766304",
+  "password": "$2a$10$TCFuQpCxkQidsAM3.X44M.Xjp8sWd57/DumPmGZok9YEaSLGSS4Y.",
+  "isAdmin": false,
+  "role": "isAdmin",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-04-19T07:32:39.400Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-19T07:32:39.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63db6a1b79be4d956943b0ce"
+  },
+  "name": "Phúc Minh",
+  "email": "minh@gmail.com",
+  "phone": "0356745321",
+  "password": "$2a$10$kkq4jfwxzzDOsCVMDjcSYOzx8h91vnjGh1s7GO2k1d5DPSHEs7IhS",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-02-02T07:45:31.954Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-07T07:53:34.204Z"
+  },
+  "__v": 0,
+  "pCoin": 0,
+  "role": "isInventory"
+},
+{
+  "_id": {
+    "$oid": "63c7fc345cf9f2c7d9323f3c"
+  },
+  "name": "Admin",
+  "email": "admin@example.com",
+  "password": "$2a$10$I587ZtTFCz0a3ocppk30/e2nJbTQm7kBlxCPRB1FoyNldMuulDLr.",
+  "isAdmin": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2023-01-18T14:03:32.890Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-30T02:55:54.214Z"
+  },
+  "phone": "0912605156",
+  "pCoin": 93950,
+  "role": "isAdmin"
+},
+{
+  "_id": {
+    "$oid": "641cf8266d5c7b3520609f97"
+  },
+  "name": "Khoa Trần",
+  "email": "khoatran@gmail.com",
+  "phone": "0367855407",
+  "password": "$2a$10$TttGpNlGbDLgUuk5NZPQKubvu9T3UoJ4DE6v3Dp3mvR/vfdevZGJK",
+  "pCoin": 10000,
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-03-24T01:08:54.193Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-06T09:27:38.547Z"
+  },
+  "__v": 0,
+  "role": "isSaleAgent"
+}]

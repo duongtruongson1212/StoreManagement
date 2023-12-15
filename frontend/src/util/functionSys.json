@@ -1,0 +1,156 @@
+[
+  {
+    "_id": 1,
+    "functionName": "Danh sách thuốc",
+    "functionPath": "/products",
+    "role": ["isAdmin", "isSaleAgent","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 2,
+    "functionName": "Thêm thuốc",
+    "functionPath": "/product/add",
+    "role": ["isAdmin", "isSaleAgent","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 3,
+    "functionName": "Excel thuốc",
+    "functionPath": "/product/excel",
+    "role": ["isAdmin", "isSaleAgent","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 4,
+    "functionName": "Nhóm sản phẩm",
+    "functionPath": "/categories",
+    "role": ["isAdmin", "isSaleAgent","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 5,
+    "functionName": "Nhóm thuốc",
+    "functionPath": "/categories-drug",
+    "role": ["isAdmin", "isSaleAgent","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 6,
+    "functionName": "Danh sách nhập kho",
+    "functionPath": "/import-stock",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 7,
+    "functionName": "Thêm phiếu nhập kho",
+    "functionPath": "/import-stock/add",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 8,
+    "functionName": "Danh sách xuất kho",
+    "functionPath": "/export-stock",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 9,
+    "functionName": "Thêm phiếu xuất kho",
+    "functionPath": "/export-stock/add",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 10,
+    "functionName": "Danh sách kiểm kê tồn kho",
+    "functionPath": "/inventory-check",
+    "isAdmin": false 
+  },
+  {
+    "_id": 11,
+    "functionName": "Thêm phiếu kiểm kê tồn kho",
+    "functionPath": "/inventory-check/add",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 12,
+    "functionName": "Danh sách nhà cung cấp",
+    "functionPath": "/providers",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 13,
+    "functionName": "Xem tồn kho",
+    "functionPath": "/inventories",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 14,
+    "functionName": "Thẻ kho",
+    "functionPath": "/tag-inventory",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 15,
+    "functionName": "Danh sách yêu cầu đặt hàng",
+    "functionPath": "/req-inventory",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 16,
+    "functionName": "Thêm phiếu yêu cầu đặt hàng",
+    "functionPath": "/req-inventory/add",
+    "role": ["isAdmin","isInventory"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 17,
+    "functionName": "Xem tủ trực nhà thuốc",
+    "functionPath": "/drugstore",
+    "role": ["isAdmin", "isSaleAgent"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 18,
+    "functionName": "Danh sách bình luận",
+    "functionPath": "/review",
+    "role": ["isAdmin", "isSaleAgent"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 19,
+    "functionName": "Cập nhật nội dung",
+    "functionPath": "/content",
+    "role": ["isAdmin", "isSaleAgent"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 20,
+    "functionName": "Danh sách khuyến mãi",
+    "functionPath": "/promotion",
+    "role": ["isAdmin", "isSaleAgent"],
+    "isAdmin": false 
+  },
+  {
+    "_id": 21,
+    "functionName": "Danh sách người dùng",
+    "functionPath": "/users",
+    "role": ["isSuperAdmin"],
+    "isAdmin": true 
+  },
+  {
+    "_id": 22,
+    "functionName": "Danh sách khách hàng",
+    "functionPath": "/customers",
+    "role": ["isAdmin", "isSaleAgent"],
+    "isAdmin": false  
+  }
+]
+  
